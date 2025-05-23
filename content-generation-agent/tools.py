@@ -7,7 +7,6 @@ from google.adk.tools import ToolContext
 from google.cloud import storage
 from google.genai import Client, types
 
-MODEL = "gemini-2.5-pro-preview-05-06" 
 MODEL_IMAGE = "imagen-4.0-generate-preview-05-20"
 
 load_dotenv()
