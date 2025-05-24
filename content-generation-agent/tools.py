@@ -10,7 +10,7 @@ from google.cloud import storage
 from google.genai import Client, types
 
 MODEL_IMAGE = "imagen-4.0-generate-preview-05-20"
-MODEL_VIDEO = "veo-2.0-generate-preview"
+MODEL_VIDEO = "veo-2.0-generate-001"
 
 load_dotenv()
 
