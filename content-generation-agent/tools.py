@@ -72,6 +72,7 @@ async def generate_video(
         number_of_videos (int, optional): The number of videos to generate. Defaults to 1.
         aspect_ratio (str, optional): The aspect ratio of the video. Defaults to "16:9".
         negative_prompt (str, optional): The negative prompt to use. Defaults to "".
+        existing_image_filename (str, optional): The filename of the existing image to use. Defaults to "".
 
     Returns:
         dict: status dict
